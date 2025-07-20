@@ -73,3 +73,50 @@ blockquote {
     margin: 1rem auto;
     box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.1);
 }
+
+/* Section quote styling */
+section {
+    border: 0.1rem  #666;
+    box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.2);
+    width: 100%;
+    margin: 2rem auto;
+    font-family: "Courier New", monospace;
+    font-style: oblique;
+    color: #444444;
+    padding: 0.3rem;
+}
+/* Section headings */
+h2, h3 {
+    color: #333333;
+    font-variant: small-caps;
+    font-weight: bold;
+    font-size: 1rem;
+    font-family: "Georgia", serif;
+    text-align: center;
+}
+/* Figure and image styling */ 
+figure {
+    border: 0.1rem solid #888;
+    border-radius: 1rem;
+    padding: 1rem;
+    background-color: #ffffff;
+    text-align: center;
+}
+figure img {
+    display: block;
+    margin: 0 auto;
+    border: 0.25rem solid #555;
+    border-radius: 1rem;
+    width: 80%;
+}
+figcaption {
+    font-size: 0.85rem;
+    font-variant: small-caps;
+}
+/* iFrame styling */
+iframe {
+    display: block;
+    margin: 0.01rem auto;
+    border: 0.01rem solid #333;
+    width: 80%;
+}
