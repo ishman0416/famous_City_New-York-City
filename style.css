@@ -175,3 +175,27 @@ tr:hover {
     width: 10rem;
     margin-bottom: 1rem;
 }
+
+/* Responsive design */
+@media (max-width: 600px) {
+    html {
+        font-size: 90%;
+    }
+    .left-panel, .right-panel {
+        float: none;
+        width: 100%;
+    }
+    body {
+        margin: 0.5rem;
+        border: none;
+    }
+    blockquote, section {
+        width: 98%;
+    }
+    figure img, iframe {
+        width: 100%;
+    }
+    table, .form-control {
+        width: 100%;
+    }
+}
