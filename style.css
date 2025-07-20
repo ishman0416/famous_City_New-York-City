@@ -45,3 +45,21 @@ main {
   background-color: #f0f0f0;
 }
 
+
+/* Full‐width header */
+header {
+    background: linear-gradient(to right, #eff2f5, #1435f3);
+    color: #ffffff;
+    text-align: center;
+    font-size: 0.9rem;
+    padding: 0.5rem 0;
+}
+
+/* Full‐width header */
+footer {
+    background: linear-gradient(to right, #e2e3ec, #2140f0);
+    color: #ffffff;
+    text-align: center;
+    font-size: 0.7rem;
+    padding: 1rem 0;
+}
