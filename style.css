@@ -1,1 +1,25 @@
+/* Name: Ishman Virk, 
+ID: 
+ */
+/* ------------------------ */
 
+html {
+    font: small-caps bold 20px/1.5 "Times New Roman", serif;
+    background-color: #f0f0f0;
+}
+
+/* Body: set max-width, center with margin auto, add padding and border, and background-color */
+body {
+    max-width: 900px;
+    margin: auto;
+    padding: 0.2rem;
+    border: 0.2rem solid #ccc;
+    background-color: #f0f0f0;
+}
+
+/* reset default margins/padding */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
