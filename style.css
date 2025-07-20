@@ -120,3 +120,18 @@ iframe {
     border: 0.01rem solid #333;
     width: 80%;
 }
+
+/* List and link styling */
+ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+a:link, a:visited {
+    color: #0066cc;
+    text-decoration: none;
+}
+a:hover, a:active {
+    color: #004999;
+    text-decoration: underline;
+}
