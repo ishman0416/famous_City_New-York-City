@@ -160,3 +160,18 @@ tr:nth-child(even) {
 tr:hover {
     background-color: #e0e0e0;
 }
+/* Form styling */
+.form-label {
+    font-variant: small-caps;
+    font-weight: bold;
+    color: #333333;
+    margin-bottom: 0.2rem;
+    display: inline-block;
+}
+.form-control {
+    padding: 0.5rem;
+    border: 0.1rem solid #333333;
+    border-radius: 0.5rem;
+    width: 10rem;
+    margin-bottom: 1rem;
+}
