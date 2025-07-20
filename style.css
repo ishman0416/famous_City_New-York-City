@@ -23,3 +23,25 @@ body {
   padding: 0;
   box-sizing: border-box;
 }
+
+/* Main layout: two columns side by side */
+main {
+  overflow: hidden; /* establish block formatting context as clearfix */
+}
+
+/* left panel: 70% width, float left, padding */
+.left-panel {
+  float: left;
+  width: 70%;              
+  padding: 1rem;           
+  background-color: #f0f0f0;
+}
+
+/* right panel: 30% width, float right, padding */
+.right-panel {
+  float: right;
+  width: 30%;              
+  padding: 1rem;           
+  background-color: #f0f0f0;
+}
+
